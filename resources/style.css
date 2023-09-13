@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Lora', 'Open Sans', sans-serif;
+}
+
+body{
+    background: #42275a;
+    background: -webkit-linear-gradient(to right, #734b6d, #42275a);
+    background: linear-gradient(to right, #734b6d, #42275a);
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.navbar .list li{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.navbar .list li a{
+    color: #362147;
+    text-decoration: none;
+}
+
+.navbar .list li a:hover{
+    font-size: 23px;
+    color:#FFDB58;
+    transition: 160ms;
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yuji img{
+    height: 100vb;
+}
+
+.texto{
+    display: inline-block;
+    width: 60%;
+    
+}
+.texto h1{
+    color:#FFFF99;
+    line-height: 2em;
+}
+.texto p{
+    color:#e0e0e0;
+    margin-top: 2em;
+    line-height: 2em;
+    font-weight: bold;
+    text-shadow: #734b6d;
+}
+
+.estadisticas{
+    display: inline;
+    height: 200px;
+    width: 100px;
+    color: #FFFF99;
+}
+ 
+.progress-bar {
+    
+    height: 30px;
+    margin-top: 20px;
+    background: #600b1d;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+ 
+.progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5;
+}
+
+.contenido .titulo{
+    display: flex;
+    justify-content: center;
+}
